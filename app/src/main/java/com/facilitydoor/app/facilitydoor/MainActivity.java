@@ -1,5 +1,6 @@
 package com.facilitydoor.app.facilitydoor;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -31,14 +34,8 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -116,17 +113,37 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
+        if (id == R.id.logsign) {
+           Intent i=new Intent(MainActivity.this,Log_Sign.class);
+            startActivity(i);
+            // Handle the login signup
+        } else if (id == R.id.Doorwallet) {
+            Intent i=new Intent(MainActivity.this,Door_Wallet.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.ratecard) {
 
-        } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+
+        } else if (id == R.id.terms_of_use) {
+            Intent i=new Intent(MainActivity.this,Door_Wallet.class);
+            startActivity(i);
+
+
+        } else if (id == R.id.privacy_policy) {
+            Intent i=new Intent(MainActivity.this,PrivacyPolicy.class);
+            startActivity(i);
+
+
+        } else if (id ==R.id.About_us){
+            Intent i=new Intent(MainActivity.this,AboutUs.class);
+            startActivity(i);
+
+
+        } else if (id ==R.id.Contact_us) {
+            Intent i=new Intent(MainActivity.this,ContactUs.class);
+            startActivity(i);
 
         }
 

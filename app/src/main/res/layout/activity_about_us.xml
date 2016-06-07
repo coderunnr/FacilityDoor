@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.facilitydoor.app.facilitydoor.AboutUs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FacilityDoor"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000d1a"
+            android:paddingTop="10dp"
+            android:text="Services that will knock your Door"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+
+            android:layout_height="wrap_content"
+            android:text="FacilityDoor is On - Demand Home Service which provides you the service professionals for activities important to you, whether you are looking for pandit to do puja, to decorate your home, get candid pictures of your wedding, plan your kid’s birthday or get healthier, book caterers for your function, and lots more all in one place. Just demand any service it will come knocking your door. At home, office or on road. We are here to make your life easy and save your time so that you can give more time to your work "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+
+            android:layout_height="wrap_content"
+            android:text="We heard many complaints regarding plumbing, electricity, carpentry and many people say that it is impossible to find a good plumber, carpenter, electrician who is reliable and can deliver the right quality of work. So FacilityDoor is the platform which serves you the expert serviceman for activities prime to you. " />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

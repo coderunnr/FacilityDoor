@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.facilitydoor.app.facilitydoor.PrivacyPolicy">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="This privacy policy has been compiled to better serve those who are concerned with how their personal information is being used online. This privacy policy and all its clauses are applicable to facilitydoor.com, please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your personal information in accordance with our website www.facilitydoor.com "
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#000d1a"
+        android:text="Personal Information"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:paddingTop="10dp"
+        android:text="At the time of using the facilitydoor or registering on our site, as appropriate you may be asked to enter your name, address, mobile number, your e-mail ids, your age, IP address, payment details and any other personal information to help you with your experience. "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#000d1a"
+        android:textStyle="bold"
+        android:text="Protection of information and storage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:text="Our website is scanned on a regular basis for security holes and known vulnerabilities in order to make your visit to our site as safe as possible. We do not use Malware Scanning. Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive/credit information you supply is encrypted via Secure Socket Layer (SSL) technology. We implement a variety of security measures when a user places an order enters, submits, or accesses their information to maintain the safety of your personal information. All transactions are processed through a gateway provider and are not stored or processed on our servers. "    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#000d1a"
+        android:textStyle="bold"
+        android:text="Cookies"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:paddingTop="10dp"
+        android:text="Yes, Cookies are small files that a site or its service provider transfers to your computer hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future. "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#000d1a"
+        android:textStyle="bold"
+        android:text="Changes to privacy policy"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:text="Facilitydoor have and continue to have the right to modify, change or update Privacy Policy at any time. However, facilitydoor will use your Personal Information in a manner consistent with Privacy Policy at the time you shared Personal Information. You are encouraged to check the facilitydoor Service often to get updated about Privacy Policy. You acknowledge that by virtue of usage of the facilitydoor Service you provide acceptance of the Privacy Policy. All questions to be addressed to admin@facilitydoor.com "/>
+
+</LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>

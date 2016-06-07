@@ -64,6 +64,7 @@ this.context=context;
         // - replace the contents of the view with that element
         holder.mTextView.setText(mDataset.get(position));
 
+
     }
 
     // Return the size of your dataset (invoked by the layout manager)
