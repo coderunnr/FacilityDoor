@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/address_main"
+    tools:context="com.facilitydoor.app.facilitydoor.AddressStore"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_addressstore"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Please fill your details below"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:padding="10dp"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------------------------------------------------------------"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"/>
+
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/register_name"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="  Name"
+            android:drawableLeft="@drawable/user"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:id="@+id/register_email"
+            android:layout_height="wrap_content"
+            android:hint="  Email"
+            android:drawableLeft="@drawable/email"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+
+            android:id="@+id/line1"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:hint=" Adressline 1"
+            android:drawableLeft="@drawable/key"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/line2"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:hint=" Adress line 2"
+            android:drawableLeft="@drawable/key"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="  Phone"
+            android:id="@+id/register_phone"
+            android:inputType="number"
+            android:drawableLeft="@drawable/phone"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="  Coupon"
+            android:id="@+id/register_coupon"
+            android:inputType="number"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------------------------------------------------------------"
+        android:gravity="center_horizontal"
+        android:padding="10dp"/>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:text=" BOOK "
+        android:id="@+id/finalbook"
+
+        android:background="@color/button"
+
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+</LinearLayout>
+

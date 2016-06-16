@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_dateand"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:layout_marginTop="150dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:elevation="8dp"
+        card_view:cardCornerRadius="12dp">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:padding="20dp"
+            android:text=""
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+
+        <Button
+            android:id="@+id/btnChangeDate"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="Change"
+
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@color/button"
+            android:textSize="14dp"
+            android:layout_gravity="right"
+
+            />
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:padding="20dp"
+            android:layout_marginTop="45dp"
+            android:text="----------------------------------------------------------------"
+            android:textSize="20dp"
+
+            />
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:paddingLeft="21dp"
+          android:layout_marginTop="85dp"
+            android:id="@+id/spinner"
+            android:layout_alignBottom="@+id/card_view"
+            android:layout_alignParentLeft="true"
+           
+            android:layout_alignParentStart="true"
+            />
+
+    </android.support.v7.widget.CardView>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:text="Next"
+    android:id="@+id/next"
+
+    android:textStyle="bold"
+    android:textColor="#fff"
+    android:background="@color/button"
+   android:layout_marginTop="400dp"/>
+
+
+
+</RelativeLayout>
+

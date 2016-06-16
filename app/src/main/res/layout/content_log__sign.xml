@@ -9,20 +9,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.facilitydoor.app.facilitydoor.Log_Sign"
+    tools:context=".LoginActivity"
     tools:showIn="@layout/activity_log__sign">
-    <TextView
-        android:id="@+id/facilitydoor"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Facilitydoor"
-        android:textSize="32sp"
-        android:textColor="#000"
-
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:gravity="center" />
-
+        android:id="@+id/facilitydoor"
+        android:src="@drawable/logo"
+        
+        android:layout_centerHorizontal="true"/>
 
 
     <android.support.design.widget.TextInputLayout
@@ -36,7 +31,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:hint="User name" />
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress"/>
+        <!--    android:drawableLeft="@drawable/user"
+            android:drawablePadding="5dp"!-->
 
     </android.support.design.widget.TextInputLayout>
 
@@ -51,20 +49,26 @@
             android:padding="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="password" />
+            android:hint="password"
+            android:inputType="textPassword"/>
+           <!-- android:drawableLeft="@drawable/password"
+            android:drawablePadding="5dp"!-->
     </android.support.design.widget.TextInputLayout>
 
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/login_button"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="188dp"
-        android:background="@color/accent_material_dark"/>
+
+        android:background="@color/button"/>
 
     <TextView
         android:layout_width="wrap_content"

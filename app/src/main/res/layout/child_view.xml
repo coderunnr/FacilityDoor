@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+            <TextView
+                android:id="@+id/textViewChild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:text="Hello World!"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="99">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:layout_weight="33">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost: "
+
+        android:layout_gravity="center_vertical"
+        />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5000"
+
+                android:layout_gravity="center_vertical"
+                android:id="@+id/child_price"/>
+                </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="33">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/minus"
+        android:adjustViewBounds="true"
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/img_minus"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/quantity"
+        />
+    <ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:src="@drawable/plus"
+    android:adjustViewBounds="true"
+    android:layout_gravity="right|center_vertical"
+    android:id="@+id/img_plus"
+    />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="33"
+    android:orientation="vertical"
+    >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:id="@+id/check"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:checked="false"
+                />
+</LinearLayout>
+
+    </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+
+    </LinearLayout>

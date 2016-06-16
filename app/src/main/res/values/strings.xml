@@ -7,4 +7,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_log__sign">LOGIN/SIGNUP</string>
     <string name="title_activity_door__wallet">DOOR WALLET</string>
+    <string name="cityselect">SELECT CITY</string>
+    <string name="check">http://ojhajssindia.esy.es/authenticate.php</string>
 </resources>

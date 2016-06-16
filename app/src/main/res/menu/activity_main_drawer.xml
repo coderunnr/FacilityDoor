@@ -10,10 +10,7 @@
             android:id="@+id/Doorwallet"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Door Wallet" />
-        <item
-            android:id="@+id/ratecard"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="RateCard" />
+
 
     </group>
 
